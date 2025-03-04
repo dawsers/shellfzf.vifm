@@ -63,6 +63,7 @@ local function shell_fzf(info)
     end
     return true
   end
+  vifm.run({ cmd =":", usetermmux = false })
   return false
 end
 
